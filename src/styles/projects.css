@@ -1,0 +1,28 @@
+.project {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#projects {
+  height: inherit;
+}
+#projects-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media (max-width: 750px) {
+  .project {
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 250px;
+  }
+}
+@media (max-width: 370px) {
+  .project {
+    width: 250px;
+  }
+}

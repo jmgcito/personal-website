@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&display=swap");
+body {
+  color: rgb(255, 255, 255);
+  background-color: black;
+  text-shadow: 2px 4px rgba(0, 0, 0, 0.879);
+  font-size: 60px;
+  font-family: "Signika Negative", Georgia, "Times New Roman", Times, serif;
+  font-weight: 600;
+  background-image: url("https://lirents.net/wp-content/uploads/printjaguar-4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header {
+  grid-row: 1;
+  text-align: center;
+  margin-top: 20px;
+}
+footer {
+  display: flex;
+  justify-content: end;
+  text-align: start;
+  margin-right: 100px;
+}
+a:hover {
+  background-color: rgb(232, 217, 53);
+}
+#center-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(47, 46, 41);
+  color: white;
+  height: 75vh;
+  margin: 30px 250px 30px 250px;
+  overflow-y: scroll;
+}
+.links {
+  position: relative;
+  right: 10px;
+  text-decoration: underline;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100vh;
+}
+hr {
+  border-top: 2px dashed white;
+  border-bottom: 0;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+a:visited {
+  color: inherit;
+}
+a:active {
+  color: inherit;
+}
+
+@media (max-width: 2000px) {
+  body {
+    font-size: 30px;
+  }
+  #center-card {
+    height: 80vh;
+    width: auto;
+    margin: 10px 50px 10px 50px;
+  }
+  footer {
+    justify-content: center;
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 370px) {
+  #center-card {
+    width: 90%;
+    margin: auto;
+  }
+}
