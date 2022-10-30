@@ -13,12 +13,9 @@ const Project = () => {
 
 const Projects = () => {
   return (
-    <div id="projects">
+    <div id="projects" className="center-card">
       <div id="projects-header">
         <a>projects</a>
-        <div className="links">
-          <a href="/about">about</a> • <a href="/?">?</a>
-        </div>
       </div>
       <hr></hr>
       <Project />

@@ -9,6 +9,8 @@ body {
   background-image: url("https://lirents.net/wp-content/uploads/printjaguar-4.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+  position: relative;
 }
 header {
   grid-row: 1;
@@ -24,15 +26,17 @@ footer {
 a:hover {
   background-color: rgb(232, 217, 53);
 }
-#center-card {
+.center-card {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(47, 46, 41);
+  background-color: rgba(0, 0, 0, 0.694);
   color: white;
   height: 75vh;
   margin: 30px 250px 30px 250px;
   overflow-y: scroll;
+  backdrop-filter: blur(10px);
 }
 .links {
   position: relative;
@@ -42,7 +46,6 @@ a:hover {
 .App {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   height: 100vh;
 }
 hr {
@@ -65,7 +68,7 @@ a:active {
   body {
     font-size: 30px;
   }
-  #center-card {
+  .center-card {
     height: 80vh;
     width: auto;
     margin: 10px 50px 10px 50px;
@@ -77,7 +80,7 @@ a:active {
 }
 
 @media (max-width: 370px) {
-  #center-card {
+  .center-card {
     width: 90%;
     margin: auto;
   }
