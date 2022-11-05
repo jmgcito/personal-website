@@ -1,12 +1,8 @@
 import React from "react";
+import "../styles/home.css";
 
 const Home = () => {
-  return (
-    <div className="underline">
-      <a href="#about">about</a> • <a href="#projects">projects</a> •{" "}
-      <a href="/?">?</a>
-    </div>
-  );
+  return <div id="home-container"></div>;
 };
 
 export default Home;

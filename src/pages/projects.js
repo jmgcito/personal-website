@@ -5,8 +5,12 @@ const Project = () => {
   return (
     <div className="project">
       <img src="https://media0.giphy.com/media/zfYpmAfrcVOAE/giphy.gif"></img>
-      <strong>Project title</strong>
-      <p>short description of this thing</p>
+
+      <p>
+        <strong>Project title</strong>
+        <br></br>
+        short description of this thing
+      </p>
     </div>
   );
 };
@@ -14,9 +18,7 @@ const Project = () => {
 const Projects = () => {
   return (
     <div id="projects" className="center-card">
-      <div id="projects-header">
-        <a>projects</a>
-      </div>
+      <h1>projects</h1>
       <hr></hr>
       <Project />
       <hr></hr>

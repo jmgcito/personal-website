@@ -1,11 +1,13 @@
 .project {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
   margin-top: 50px;
   margin-bottom: 50px;
 }
 #projects {
-  height: inherit;
+  height: fit-content;
+  padding-top: 0;
 }
 #projects-header {
   display: flex;
