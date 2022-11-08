@@ -1,10 +1,11 @@
 import React from "react";
 import "../styles/projects.css";
+import PixcassoGif from "../gifs/pixcasso.gif";
 
 const Project = () => {
   return (
     <div className="project">
-      <img src="https://media0.giphy.com/media/zfYpmAfrcVOAE/giphy.gif"></img>
+      <img src={PixcassoGif}></img>
 
       <p>
         <strong>Project title</strong>
@@ -18,7 +19,7 @@ const Project = () => {
 const Projects = () => {
   return (
     <div id="projects" className="center-card">
-      <h1>projects</h1>
+      <h1>Projects</h1>
       <hr></hr>
       <Project />
       <hr></hr>

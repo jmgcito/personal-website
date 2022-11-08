@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Questrial&display=swap");
 body {
   color: rgb(255, 255, 255);
   background-color: black;
   text-shadow: 2px 4px rgba(0, 0, 0, 0.879);
   font-size: 60px;
-  font-family: "Signika Negative", Georgia, "Times New Roman", Times, serif;
+  font-family: "JMH Typewriter", Georgia, "Times New Roman", Times, serif;
   font-weight: 600;
   background-image: url("https://lirents.net/wp-content/uploads/printjaguar-4.jpg");
   background-repeat: no-repeat;
@@ -24,25 +24,24 @@ footer {
   justify-content: end;
   text-align: start;
   margin-right: 100px;
+  font-family: "Signika Negative";
 }
 h1 {
   font-weight: 500;
   font-size: 50px;
+  letter-spacing: 2px;
 }
 h2 {
   font-weight: 500;
-  font-size: 30px;
+  font-size: 35px;
   color: azure;
 }
-a:hover {
-  background-color: rgb(232, 217, 53);
-}
+
 .center-card {
   display: flex;
   flex-direction: column;
   background-color: rgba(0, 0, 0, 0.694);
   color: white;
-  margin: 30px 250px 30px 250px;
   padding: 100px;
   padding-bottom: 10px;
   overflow-y: scroll;
@@ -58,12 +57,21 @@ a:hover {
   flex-direction: column;
   height: 100vh;
 }
+#component-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+}
 hr {
   border-bottom: 1px solid #504c49c8;
   width: 90%;
   box-shadow: 0 20px 20px -20px #333;
 }
-
+a:hover {
+  background-color: rgb(232, 217, 53);
+  text-shadow: 1px 2px rgba(0, 0, 0, 0.879);
+}
 a:link {
   text-decoration: none;
   color: white;
