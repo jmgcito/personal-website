@@ -1,11 +1,46 @@
 #navbar {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  justify-content: center;
-  align-items: center;
+  position: fixed;
+  z-index: 1;
   font-family: "Signika Negative";
-  background-color: rgba(0, 0, 0, 0.694);
+  background-color: rgba(245, 241, 241, 0.032);
   backdrop-filter: blur(10px);
   width: 100vw;
+  height: 10vh;
+  border-bottom: 1px rgba(57, 56, 56, 0.438) solid;
+}
+#navbar-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 2rem;
+}
+#name-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+}
+#name {
+  font-weight: 800;
+  letter-spacing: 3px;
+  font-size: 15px;
+  margin-left: 2rem;
+  cursor: pointer;
+}
+#name-description {
+  font-family: initial;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: rgba(251, 245, 149, 0.787);
+  text-shadow: 1px 1px black;
+}
+#navlinks {
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 15px;
+  text-shadow: none;
+  color: rgba(245, 242, 211, 0.787);
 }

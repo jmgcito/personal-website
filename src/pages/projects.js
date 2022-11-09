@@ -18,7 +18,7 @@ const Project = () => {
 
 const Projects = () => {
   return (
-    <div id="projects" className="center-card">
+    <div id="projects">
       <h1>Projects</h1>
       <hr></hr>
       <Project />

@@ -12,8 +12,8 @@ function App() {
       <div id="component-container">
         <Navbar />
         <Home />
-        <About />
         <Projects />
+        <About />
         <Contact />
       </div>
       <footer>

@@ -1,13 +1,18 @@
 #contact {
-  padding: 20px;
-  text-align: left;
-  width: fit-content;
+  display: flex;
+  flex-direction: column;
   position: relative;
-  align-self: center;
+  text-align: left;
+  width: 100vw;
+  height: 90vh;
+  background-image: url("https://lirents.net/wp-content/uploads/printjaguar-4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #contact-info {
   display: flex;
   flex-direction: column;
+  align-self: center;
   font-family: "Signika Negative";
 }
 #contact-info div {

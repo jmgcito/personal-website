@@ -5,7 +5,7 @@ import LinkedInIcon from "../svg/iconmonstr-linkedin-3.svg";
 
 const Contact = () => {
   return (
-    <div id="contact" className="center-card">
+    <div id="contact">
       <h1>Contact</h1>
       <div id="contact-info">
         <div id="location">
