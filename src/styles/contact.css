@@ -4,16 +4,30 @@
   position: relative;
   text-align: left;
   width: 100vw;
-  height: 90vh;
-  background-image: url("https://lirents.net/wp-content/uploads/printjaguar-4.jpg");
+  height: 95vh;
+}
+#contact::before {
+  position: absolute;
+  content: "";
+  z-index: -1;
+  width: inherit;
+  height: inherit;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(188, 114, 114, 0),
+      rgb(41, 37, 37)
+    ),
+    url("https://lirents.net/wp-content/uploads/printjaguar-4.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  filter: brightness(70%) saturate(125%);
 }
 #contact-info {
   display: flex;
   flex-direction: column;
   align-self: center;
   font-family: "Signika Negative";
+  text-shadow: 1px 2px black;
 }
 #contact-info div {
   margin-bottom: -1rem;

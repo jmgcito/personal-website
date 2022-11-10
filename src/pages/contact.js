@@ -24,10 +24,13 @@ const Contact = () => {
         <div id="social-links">
           <p>
             {" "}
-            <a href="https://github.com/jmgcito">
+            <a href="https://github.com/jmgcito" target="_blank">
               <img id="github-icon" src={GithubIcon}></img>{" "}
             </a>{" "}
-            <a href="https://www.linkedin.com/in/joshuamguillen/">
+            <a
+              href="https://www.linkedin.com/in/joshuamguillen/"
+              target="_blank"
+            >
               {" "}
               <img id="linkedin-icon" src={LinkedInIcon}></img>{" "}
             </a>

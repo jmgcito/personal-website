@@ -8,7 +8,7 @@
   background-color: rgba(245, 241, 241, 0.032);
   backdrop-filter: blur(10px);
   width: 100vw;
-  height: 10vh;
+  height: 50px;
   border-bottom: 1px rgba(57, 56, 56, 0.438) solid;
 }
 #navbar-items {
@@ -29,12 +29,16 @@
   font-size: 15px;
   margin-left: 2rem;
   cursor: pointer;
+  text-shadow: none;
+}
+#name:hover {
+  text-shadow: 0px 1px black;
 }
 #name-description {
   font-family: initial;
   font-weight: 500;
   letter-spacing: 1px;
-  color: rgba(251, 245, 149, 0.787);
+  color: rgb(255, 238, 128);
   text-shadow: 1px 1px black;
 }
 #navlinks {
@@ -42,5 +46,5 @@
   letter-spacing: 1px;
   font-size: 15px;
   text-shadow: none;
-  color: rgba(245, 242, 211, 0.787);
+  color: rgb(255, 250, 196);
 }
