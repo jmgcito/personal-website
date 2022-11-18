@@ -13,7 +13,8 @@
 }
 #projects {
   height: fit-content;
-  padding-top: 2rem;
+  padding-top: 5rem;
+  padding-bottom: 30rem;
 }
 #projects-header {
   display: flex;

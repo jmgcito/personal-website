@@ -3,39 +3,17 @@
   flex-direction: column;
   position: relative;
   text-align: left;
-  width: 100vw;
-  height: 95vh;
-}
-#contact::before {
-  position: absolute;
-  content: "";
-  z-index: -1;
-  width: inherit;
-  height: inherit;
-  background-image: linear-gradient(
-      to bottom,
-      rgba(188, 114, 114, 0),
-      rgb(41, 37, 37)
-    ),
-    url("https://lirents.net/wp-content/uploads/printjaguar-4.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  filter: brightness(70%) saturate(125%);
 }
 #contact-info {
   display: flex;
   flex-direction: column;
-  align-self: center;
   font-family: "Signika Negative";
   text-shadow: 1px 2px black;
+  font-size: 20px;
 }
-#contact-info div {
-  margin-bottom: -1rem;
-  margin-top: -1rem;
-}
-#contact-info img {
+#social-links img {
   filter: invert();
-  transform: scale(120%);
+  width: 30px;
   margin-right: 0.5rem;
 }
 #social-links a:hover {
@@ -43,11 +21,8 @@
   filter: sepia(100%) saturate(1600%) hue-rotate(0deg);
 }
 #social-links img:hover {
-  transform: scale(150%);
+  transform: scale(110%);
   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
-}
-p {
-  font-size: 20px;
 }
 
 @media (max-width: 1000px) {

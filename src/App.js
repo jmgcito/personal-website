@@ -15,7 +15,6 @@ function App() {
         <Home />
         <Projects />
         <About />
-        <Contact />
       </div>
       <footer>
         <a href="#">joshua m. guillen</a>

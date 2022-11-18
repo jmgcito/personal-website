@@ -1,4 +1,42 @@
 #home-container {
   display: block;
   height: 100vh;
+  width: 100vw;
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+}
+#home-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.welcome {
+  position: absolute;
+  letter-spacing: 1px;
+  font-size: 10vw;
+  font-weight: 600;
+  text-align: left;
+  margin-left: 1rem;
+  color: rgb(255, 250, 196);
+  text-shadow: none;
+}
+#home-flex p {
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  position: absolute;
+  right: 10px;
+  font-family: "Futura";
+  bottom: 0;
+  color: rgb(255, 196, 223);
+}
+
+@media (max-width: 400px) {
+  #home-flex {
+    justify-content: center;
+  }
+  #welcome p {
+    display: none;
+  }
 }

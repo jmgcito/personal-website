@@ -19,7 +19,6 @@ const Project = () => {
 const Projects = () => {
   return (
     <div id="projects">
-      <h1>Projects</h1>
       <div id="project-thumbnails">
         {" "}
         <Project />
@@ -29,6 +28,9 @@ const Projects = () => {
         <Project />
         <Project />
       </div>
+      <a>
+        <button>More Projects</button>
+      </a>
     </div>
   );
 };
