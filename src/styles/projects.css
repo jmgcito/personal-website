@@ -27,16 +27,30 @@
   column-gap: 10px;
 }
 
-@media (max-width: 750px) {
-  .project {
-    flex-direction: column;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    max-width: 250px;
+@media (max-width: 1220px) {
+  .gif {
+    width: 350px;
+    height: 200px;
   }
 }
-@media (max-width: 370px) {
+
+@media (max-width: 540px) {
+  #projects {
+    overflow: hidden;
+    height: 25vh;
+  }
+  #project-thumbnails {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
   .project {
-    width: 250px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .gif {
+    width: 100vw;
   }
 }

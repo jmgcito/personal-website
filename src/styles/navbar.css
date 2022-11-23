@@ -49,3 +49,22 @@
   text-shadow: none;
   color: rgb(255, 250, 196);
 }
+
+@media (max-width: 600px) {
+  #navbar-items {
+    width: 100vw;
+  }
+  #name-description {
+    visibility: hidden;
+  }
+  #name {
+    font-size: 10px;
+  }
+  #navlinks {
+    font-size: 12px;
+    margin-right: 5px;
+  }
+  #name-container {
+    width: 30%;
+  }
+}

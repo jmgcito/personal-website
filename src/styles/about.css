@@ -35,19 +35,30 @@
   align-self: center;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1300px) {
   #about {
     font-size: 25px;
     width: 100%;
   }
-  #about-container {
-    align-items: center;
-    margin-left: 20px;
-    margin-right: 20px;
+  #about-items {
+    width: 100vw;
+    margin: 0;
   }
-  #about-body p {
-    margin-left: 15px;
-    margin-top: 10px;
-    margin-right: 10px;
+}
+
+@media (max-width: 540px) {
+  #about-container {
+    padding-top: 4rem;
+  }
+  #about-items {
+    flex-direction: column;
+    width: 100vw;
+  }
+  #about-paragraph {
+    width: 100vw;
+    font-size: 15px;
+  }
+  #profile-pic {
+    width: 100vw;
   }
 }

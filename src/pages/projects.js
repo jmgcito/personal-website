@@ -19,6 +19,12 @@ const Project = () => {
 const Projects = () => {
   return (
     <div id="projects">
+      <div className="under-construction">
+        <span>
+          This section is currently under construction. :,(<br></br> Pretty
+          please come back another day.
+        </span>
+      </div>
       <div id="project-thumbnails">
         {" "}
         <Project />
@@ -28,9 +34,9 @@ const Projects = () => {
         <Project />
         <Project />
       </div>
-      <a>
+      {/* <a>
         <button>More Projects</button>
-      </a>
+      </a> */}
     </div>
   );
 };

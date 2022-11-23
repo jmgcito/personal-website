@@ -18,7 +18,7 @@ const Navbar = () => {
           <a id="projects-link" onClick={() => scrollToElement("projects")}>
             Projects
           </a>{" "}
-          • <a onClick={() => scrollToElement("about")}>About Me</a> •{" "}
+          • <a onClick={() => scrollToElement("about")}>About</a> •{" "}
           <a onClick={() => scrollToElement("contact")}>Contact</a> •{" "}
           <a href="/?">?</a>
         </div>
