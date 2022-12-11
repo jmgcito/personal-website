@@ -26,8 +26,8 @@ const About = () => {
               uncovering the mechanics behind human cognition. <br></br>
               <br></br>I’ve dipped my nose into several technologies related to
               computer programming. <i>C, C++, and Unix</i> for my fundamentals
-              in programming. <i>Python and Pandas</i> for Machine Learning. And
-              most recently,{" "}
+              in programming. <i>Python, Tensorflow, and Pandas</i> for Machine
+              Learning. And most recently,{" "}
               <i>
                 Javascript, HTML, CSS, Node.js, React, Webpack, and Firebase
               </i>{" "}

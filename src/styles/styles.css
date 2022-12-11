@@ -122,6 +122,7 @@ a:hover .hover-hidden {
 .hidden-until-hover {
   display: none;
   margin-right: 70px;
+  transition: 2s;
 }
 a:hover .hidden-until-hover {
   display: inline;
