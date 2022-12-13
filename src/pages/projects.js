@@ -57,8 +57,10 @@ const Project = (props) => {
       <a href={props.url} target="_blank">
         <img className="gif" src={props.gif}></img>
         <div className="top-left hidden-until-hover">
-          <span>{props.name}</span>
-          <p>{props.description}</p>
+          <div className="project-text-container">
+            <span className="project-name">{props.name}</span>
+            <p className="project-description">{props.description}</p>
+          </div>
         </div>
       </a>
     </div>
@@ -70,8 +72,8 @@ const Projects = () => {
     <Project
       gif={g.gif}
       url={g.url}
-      // name={g.name}
-      // description={g.description}
+      name={g.name}
+      description={g.description}
     />
   ));
   return (
