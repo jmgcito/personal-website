@@ -12,37 +12,41 @@ const gifs = [
     gif: PixcassoGif,
     url: "https:github.com/jmgcito/Pixcasso",
     name: "Pixcasso",
-    description: "This is a description of the project",
+    description:
+      "A pixel art drawing tool in the style of a classic Etch-a-sketch. ",
   },
   {
     gif: GetWeatherGif,
     url: "https://github.com/jmgcito/getWeather",
     name: "getWeather",
-    description: "This is a description of the project",
+    description: "A web app that displays the real-time weather for any city.",
   },
   {
     gif: KeyboardGif,
     url: "https://github.com/jmgcito/virtual-keyboard",
     name: "Virtual Keyboard",
-    description: "This is a description of the project",
+    description:
+      "A synthesizer with functioning octave control playable with mouse or keyboard.",
   },
   {
     gif: BattleshipGif,
     url: "https://github.com/jmgcito/battleship",
     name: "Battleship",
-    description: "This is a description of the project",
+    description: "A playable in-browser version of the board game, Battleship",
   },
   {
     gif: BudgeterGif,
     url: "https://github.com/jmgcito/budgeter",
     name: "Budgeter",
-    description: "This is a description of the project",
+    description:
+      "A web app that budgets monthly income by category and percentages.",
   },
   {
     gif: TriangleGif,
     url: "https://github.com/jmgcito/impossible-triangle",
     name: "Impossible Triangle",
-    description: "This is a description of the project",
+    description:
+      "An interactive webpage illustrating how the Penrose Triangle illusion tricks us.",
   },
 ];
 
@@ -52,10 +56,10 @@ const Project = (props) => {
     <div className="project">
       <a href={props.url} target="_blank">
         <img className="gif" src={props.gif}></img>
-        {/* <div className="top-left hidden-until-hover">
+        <div className="top-left hidden-until-hover">
           <span>{props.name}</span>
           <p>{props.description}</p>
-        </div> */}
+        </div>
       </a>
     </div>
   );
