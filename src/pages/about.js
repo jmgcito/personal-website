@@ -32,11 +32,12 @@ const About = () => {
                 Javascript, HTML, CSS, Node.js, React, Webpack, and Firebase
               </i>{" "}
               for web development. <br></br>
-              <br></br>Much of my time is also spent working events as an Event
-              Coordinator and Special Event Technician at the Exploratorium – a
-              museum that blends science and art to facilitate curiosity based
-              learning. Although I consider the Exploratorium a second home, I
-              seek to pursue my passion for programming.
+              <br></br>Much of my time is also spent working industry-standard
+              events as an Event Coordinator and Special Event Technician at the
+              Exploratorium – a museum that blends science and art to facilitate
+              curiosity based learning. Some of the clients I've worked events
+              for include Apple, Google, Chan Zuckerberg Biohub, the AICP
+              Awards, and Stanford University.
             </p>
           </div>
 
