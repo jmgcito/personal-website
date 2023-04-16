@@ -1,6 +1,6 @@
 import React from "react";
 import Contact from "./contact";
-import ProfilePic from "../pics/me.png";
+import ProfilePic from "../pics/shoe.jpg";
 import "../styles/about.css";
 
 const About = () => {
