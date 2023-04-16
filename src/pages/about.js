@@ -18,8 +18,8 @@ const About = () => {
           <div id="about-items">
             <Contact />
             <p id="about-paragraph">
-              I am a 24 year old cognitive scientist, programmer, and life-long
-              student. <br></br>
+              I am a cognitive scientist, programmer, and life-long student.{" "}
+              <br></br>
               <br></br>Throughout my years in college and my time post-grad
               self-teaching I have learned much about computers from a
               theoretical perspective as well as in practice with the goal of
