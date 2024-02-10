@@ -10,7 +10,7 @@ import KeyboardGif from "../gifs/keyboard demo.gif";
 const gifs = [
   {
     gif: PixcassoGif,
-    url: "https:github.com/jmgcito/Pixcasso",
+    url: "https://github.com/jmgcito/Pixcasso",
     name: "Pixcasso",
     description:
       "A pixel art drawing tool in the style of a classic Etch-a-sketch. ",
